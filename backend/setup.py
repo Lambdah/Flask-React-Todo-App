@@ -1,0 +1,39 @@
+from setuptools import setup
+
+setup(
+    name="todoApp",
+    version='1.0',
+    packages=['flaskTodo'],
+    include_package_data=True,
+    zip_safe=False,
+    install_requires=[
+        'alembic==1.4.2'
+        'astroid==2.4.1'
+        'cffi==1.14.0'
+        'click==7.1.2'
+        'cryptography==2.9.2'
+        'Flask==1.1.2'
+        'Flask-Migrate==2.5.3'
+        'Flask-SQLAlchemy==2.4.3'
+        'isort==4.3.21'
+        'itsdangerous==1.1.0'
+        'Jinja2==2.11.2'
+        'lazy-object-proxy==1.4.3'
+        'Mako==1.1.3'
+        'MarkupSafe==1.1.1'
+        'mccabe==0.6.1'
+        'pkg-resources==0.0.0'
+        'psycopg2==2.8.5'
+        'pycparser==2.20'
+        'pylint==2.5.2'
+        'python-dateutil==2.8.1'
+        'python-dotenv==0.13.0'
+        'python-editor==1.0.4'
+        'six==1.15.0'
+        'SQLAlchemy==1.3.17'
+        'toml==0.10.1'
+        'typed-ast==1.4.1'
+        'Werkzeug==1.0.1'
+        'wrapt==1.12.1'
+            ]
+)

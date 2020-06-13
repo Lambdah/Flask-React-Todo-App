@@ -1,0 +1,14 @@
+.vscode/
+
+frontend/dist/
+frontend/node_modules/
+frontend/package-lock.json
+
+backend/__pycache__/
+backend/migrations/
+backend/venv/
+
+backend/.pytest_cache/
+.coverage
+*.egg-info/
+*.pyc
