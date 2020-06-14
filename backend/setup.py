@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name="todoApp",
+    name="flaskr",
     version='1.0',
-    packages=['flaskTodo'],
+    packages=['flaskr'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
