@@ -1,16 +1,16 @@
 from flask_sqlalchemy import SQLAlchemy
-from db import get_db
-
-db = get_db()
+from flaskr import db
 
 
-class User(db):
-    pass
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    email = db.Column(db.String(100), unique=True, nullable=False)
+    alias = db.Column(db.String(80), nullable=True)
 
 
-class Task(db):
-    pass
+# class Task(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
 
 
-class Group(db):
-    pass
+# class Group(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
